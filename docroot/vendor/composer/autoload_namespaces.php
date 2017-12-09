@@ -9,6 +9,7 @@ return array(
     'org\\bovigo\\vfs\\' => array($vendorDir . '/mikey179/vfsStream/src/main/php'),
     'Twig_' => array($vendorDir . '/twig/twig/lib'),
     'Stack' => array($vendorDir . '/stack/builder/src'),
+    'Solarium\\' => array($vendorDir . '/solarium/solarium/library'),
     'Prophecy\\' => array($vendorDir . '/phpspec/prophecy/src'),
     'Egulias\\' => array($vendorDir . '/egulias/email-validator/src'),
     'EasyRdf_' => array($vendorDir . '/easyrdf/easyrdf/lib'),

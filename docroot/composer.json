@@ -15,7 +15,8 @@
         "drupal/material_admin_support": "1.x-dev",
         "drupal/webform": "^5.0@beta",
         "drupal/admin_login_path": "^1.0",
-        "drupal/seckit": "^1.0@alpha"
+        "drupal/seckit": "^1.0@alpha",
+        "drupal/Search_api_solr": "^1.2"
     },
     "replace": {
         "drupal/core": "^8.4"
