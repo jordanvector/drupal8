@@ -5,7 +5,11 @@
     "license": "GPL-2.0+",
     "require": {
         "composer/installers": "^1.0.24",
-        "wikimedia/composer-merge-plugin": "^1.4"
+        "wikimedia/composer-merge-plugin": "^1.4",
+        "drush/drush": "dev-master",
+        "drupal/material_admin": "^1.0@alpha",
+        "drupal/PathAuto": "^1.0",
+        "drupal/linkit": "^4.3"
     },
     "replace": {
         "drupal/core": "^8.4"
