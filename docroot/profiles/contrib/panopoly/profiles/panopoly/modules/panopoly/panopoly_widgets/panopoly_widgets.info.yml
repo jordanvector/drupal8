@@ -1,0 +1,23 @@
+type: module
+name: 'Panopoly Widgets'
+description: 'A collection of generic widgets.'
+core: 8.x
+package: Panopoly
+dependencies:
+  - block_content
+  - ctools_views
+  - field
+  - file
+  - image
+  - link
+  - node
+  - panopoly_core
+  - panopoly_images
+  - text
+  - user
+  - views
+
+# Information added by drush on 2017-02-22
+version: '8.x-2.x-dev'
+project: 'panopoly_widgets'
+datestamp: 1487780638

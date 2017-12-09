@@ -1,0 +1,12 @@
+type: module
+name: 'Panopoly Images'
+description: 'Provides some standard responsive image styles.'
+core: 8.x
+package: Panopoly
+dependencies:
+  - image
+
+# Information added by drush on 2017-03-07
+version: '8.x-2.x-dev'
+project: 'panopoly_images'
+datestamp: 1488914374
