@@ -34,7 +34,10 @@
         "drupal/field_group": "^1.0",
         "drupal/superfish": "^1.1",
         "drupal/memcache": "^2.0@alpha",
-        "drupal/commerce_reports": "1.x-dev"
+        "drupal/commerce_reports": "1.x-dev",
+        "drupal/geofield": "^1.0@alpha",
+        "drupal/feeds": "3.x-dev",
+        "drupal/geofield_map": "^1.23"
     },
     "replace": {
         "drupal/core": "^8.4"
