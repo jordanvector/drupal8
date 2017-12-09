@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d1ba8faf53a24893eb4434642d9db2b8",
+    "content-hash": "28cb88aac31ab3d862e25cb052a6b79e",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1572,6 +1572,74 @@
             }
         },
         {
+            "name": "drupal/commerce_reports",
+            "version": "dev-1.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/commerce_reports",
+                "reference": "741d8971267a30801533939169f6a7ee36e4ae0e"
+            },
+            "require": {
+                "drupal/commerce": "^2",
+                "drupal/commerce_order": "*",
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.x-dev",
+                    "datestamp": "1485806583",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Dev releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "aidanlis",
+                    "homepage": "https://www.drupal.org/user/502018"
+                },
+                {
+                    "name": "cvangysel",
+                    "homepage": "https://www.drupal.org/user/868104"
+                },
+                {
+                    "name": "dpearcefl",
+                    "homepage": "https://www.drupal.org/user/436410"
+                },
+                {
+                    "name": "johnkennedy",
+                    "homepage": "https://www.drupal.org/user/1046660"
+                },
+                {
+                    "name": "mglaman",
+                    "homepage": "https://www.drupal.org/user/2416470"
+                },
+                {
+                    "name": "paul.linney",
+                    "homepage": "https://www.drupal.org/user/928636"
+                },
+                {
+                    "name": "strings6",
+                    "homepage": "https://www.drupal.org/user/317422"
+                }
+            ],
+            "description": "Provides reporting capabilities for sales, products, customers and payment gateways.",
+            "homepage": "http://drupal.org/project/commerce_reports",
+            "support": {
+                "source": "http://cgit.drupalcode.org/commerce_reports"
+            },
+            "time": "2017-01-30T20:00:45+00:00"
+        },
+        {
             "name": "drupal/commerce_store",
             "version": "2.2.0",
             "require": {
@@ -2546,6 +2614,70 @@
                 "issues": "https://www.drupal.org/project/issues/material_admin_support"
             },
             "time": "2017-12-05T21:29:16+00:00"
+        },
+        {
+            "name": "drupal/memcache",
+            "version": "2.0.0-alpha5",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/memcache",
+                "reference": "8.x-2.0-alpha5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/memcache-8.x-2.0-alpha5.zip",
+                "reference": "8.x-2.0-alpha5",
+                "shasum": "4210217dd4040a5687831da82884f7bcad155c66"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-2.x": "2.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-2.0-alpha5",
+                    "datestamp": "1508351344",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Alpha releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Jeremy",
+                    "homepage": "https://www.drupal.org/user/409"
+                },
+                {
+                    "name": "catch",
+                    "homepage": "https://www.drupal.org/user/35733"
+                },
+                {
+                    "name": "damiankloip",
+                    "homepage": "https://www.drupal.org/user/1037976"
+                },
+                {
+                    "name": "jvandyk",
+                    "homepage": "https://www.drupal.org/user/2375"
+                },
+                {
+                    "name": "robertDouglass",
+                    "homepage": "https://www.drupal.org/user/5449"
+                }
+            ],
+            "description": "High performance integration with memcache.",
+            "homepage": "http://drupal.org/project/memcache",
+            "support": {
+                "source": "http://cgit.drupalcode.org/memcache",
+                "issues": "https://www.drupal.org/project/issues/memcache"
+            }
         },
         {
             "name": "drupal/metatag",
@@ -7643,6 +7775,8 @@
         "drupal/diff": 5,
         "drupal/rules": 15,
         "drupal/libraries": 20,
+        "drupal/memcache": 15,
+        "drupal/commerce_reports": 20,
         "behat/mink": 20
     },
     "prefer-stable": true,
