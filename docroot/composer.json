@@ -41,7 +41,8 @@
         "drupal/geofield_map": "^1.23",
         "drupal/facets": "^1.0@beta",
         "drupal/search_api_solr_multilingual": "^1.1",
-        "drupal/material_base": "^1.1"
+        "drupal/material_base": "^1.1",
+        "drupal/commerce_license": "^2.0@alpha"
     },
     "replace": {
 
