@@ -19,7 +19,8 @@
         "drupal/Search_api_solr": "^1.2",
         "drupal/panopoly": "^2.0@alpha",
         "drupal/page_manager": "^4.0@beta",
-        "drupal/commerce_recurring": "^1.0@beta"
+        "drupal/commerce_recurring": "^1.0@beta",
+        "drupal/commerce_stripe": "^1.0@beta"
     },
     "replace": {
         "drupal/core": "^8.4"
