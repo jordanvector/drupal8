@@ -14,7 +14,8 @@
         "drupal/commerce": "^2.2",
         "drupal/material_admin_support": "1.x-dev",
         "drupal/webform": "^5.0@beta",
-        "drupal/admin_login_path": "^1.0"
+        "drupal/admin_login_path": "^1.0",
+        "drupal/seckit": "^1.0@alpha"
     },
     "replace": {
         "drupal/core": "^8.4"
