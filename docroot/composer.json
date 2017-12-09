@@ -8,7 +8,11 @@
         "wikimedia/composer-merge-plugin": "^1.4",
         "drupal/material_admin": "^1.0@alpha",
         "drupal/PathAuto": "^1.0",
-        "drupal/linkit": "^4.3"
+        "drupal/linkit": "^4.3",
+        "drupal/acquia_connector": "^1.14",
+        "drupal/environment_indicator": "^3.2",
+        "drupal/commerce": "^2.2",
+        "drupal/material_admin_support": "1.x-dev"
     },
     "replace": {
         "drupal/core": "^8.4"
