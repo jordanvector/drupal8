@@ -4,6 +4,7 @@
     "type": "project",
     "license": "GPL-2.0+",
     "require": {
+        "drupal/core": "^8.4",
         "composer/installers": "^1.0.24",
         "wikimedia/composer-merge-plugin": "^1.4",
         "drupal/material_admin": "^1.0@alpha",
@@ -37,10 +38,12 @@
         "drupal/commerce_reports": "1.x-dev",
         "drupal/geofield": "^1.0@alpha",
         "drupal/feeds": "3.x-dev",
-        "drupal/geofield_map": "^1.23"
+        "drupal/geofield_map": "^1.23",
+        "drupal/facets": "^1.0@beta",
+        "drupal/search_api_solr_multilingual": "^1.1"
     },
     "replace": {
-        "drupal/core": "^8.4"
+
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
