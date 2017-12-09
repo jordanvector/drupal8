@@ -28,7 +28,11 @@
         "drupal/rules": "^3.0@alpha",
         "drupal/social_login": "^1.6",
         "drupal/panels": "^4.2",
-        "drupal/libraries": "3.x-dev"
+        "drupal/libraries": "3.x-dev",
+        "drupal/entity_browser": "^1.4",
+        "drupal/admin_toolbar": "^1.21",
+        "drupal/field_group": "^1.0",
+        "drupal/superfish": "^1.1"
     },
     "replace": {
         "drupal/core": "^8.4"
