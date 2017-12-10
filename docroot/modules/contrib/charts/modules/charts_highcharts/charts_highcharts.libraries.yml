@@ -1,0 +1,24 @@
+charts_highcharts:
+  version: VERSION
+  js:
+    js/charts_highcharts.js: {}
+  dependencies:
+      - core/jquery
+      - core/jquery.once
+      - core/drupal
+
+highcharts:
+  remote: https://code.highcharts.com/highcharts.js
+  version: VERSION
+  license:
+      name: Non-commercial
+      url: https://creativecommons.org/licenses/by-nc/3.0/
+      gpl-compatible: false
+  js:
+    vendor/highcharts/highcharts.js: {}
+    vendor/exporting/exporting.js: {}
+    vendor/export-data/export-data.js: {}
+    vendor/accessibility/accessibility.js: {}
+
+  dependencies:
+      - charts_highcharts/charts_highcharts

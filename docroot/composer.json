@@ -46,7 +46,8 @@
         "drupal/coder": "^8.2",
         "drupal/radix": "^3.1",
         "drupal/radix_layouts": "^4.0",
-        "drupal/owlcarousel": "^1.0@alpha"
+        "drupal/owlcarousel": "^1.0@alpha",
+        "drupal/charts": "^3.0@alpha"
     },
     "replace": {
 
