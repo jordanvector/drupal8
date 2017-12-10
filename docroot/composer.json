@@ -49,7 +49,9 @@
         "drupal/owlcarousel": "^1.0@alpha",
         "drupal/charts": "^3.0@alpha",
         "drupal/poll": "^1.1",
-        "drupal/panelizer": "^4.0"
+        "drupal/panelizer": "^4.0",
+        "drupal/features": "^3.5",
+        "drupal/business_rules": "^1.0@alpha"
     },
     "replace": {
 
