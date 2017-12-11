@@ -59,7 +59,9 @@
         "drupal/views_bulk_operations": "^1.0@RC",
         "drupal/views_data_export": "^1.0@alpha",
         "drupal/easychart": "^3.4",
-        "drupal/swiftmailer": "^1.0@beta"
+        "drupal/swiftmailer": "^1.0@beta",
+        "drupal/redirect": "^1.0@beta",
+        "drupal/contact_storage": "^1.0@beta"
     },
     "replace": {
 
