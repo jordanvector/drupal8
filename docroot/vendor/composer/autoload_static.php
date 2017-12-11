@@ -17,6 +17,7 @@ class ComposerStaticInitDrupal8
         '2cffec82183ee1cea088009cef9a6fc3' => __DIR__ . '/..' . '/ezyang/htmlpurifier/library/HTMLPurifier.composer.php',
         'fbeead2280a8f3911a1fe6dd034f7d5e' => __DIR__ . '/..' . '/mkalkbrenner/php-htmldiff-advanced/src/HtmlDiffAdvancedInterface.php',
         '96f8d8288528d52059397cad6ec61f17' => __DIR__ . '/..' . '/mkalkbrenner/php-htmldiff-advanced/src/HtmlDiffAdvanced.php',
+        '2c102faa651ef8ea5874edb585946bce' => __DIR__ . '/..' . '/swiftmailer/swiftmailer/lib/swift_required.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -80,6 +81,10 @@ class ComposerStaticInitDrupal8
         'L' => 
         array (
             'League\\Csv\\' => 11,
+        ),
+        'H' => 
+        array (
+            'Html2Text\\' => 10,
         ),
         'G' => 
         array (
@@ -269,6 +274,11 @@ class ComposerStaticInitDrupal8
         'League\\Csv\\' => 
         array (
             0 => __DIR__ . '/..' . '/league/csv/src',
+        ),
+        'Html2Text\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/html2text/html2text/src',
+            1 => __DIR__ . '/..' . '/html2text/html2text/test',
         ),
         'GuzzleHttp\\Psr7\\' => 
         array (
